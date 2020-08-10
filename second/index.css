@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+.border-box {
+    width: 100%;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.purple-rec {
+    height: 150px;
+    width: 50px;
+    display: inline-block;
+    background-color: #6404c4;
+}
+.green-square {
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 50px;
+}
+.circle {
+    background-color: lightskyblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dotted-box {
+        width: 100%;
+        border: 5px dotted black;
+        padding: 50px;
+        box-sizing: border-box ;
+        margin-top: 25px; 
+      }
+.cream-rec {
+        background-color: lightyellow;
+        width: 100%;
+        height: 200px;
+        -webkit-box-shadow: 10px 10px 5px 0px black;
+        -moz-box-shadow: 10px 10px 5px 0px black;
+        box-shadow: 10px 10px 5px 0px black;
+      }
+.container {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+    -webkit-box-shadow: 3px 3px 5px 0px black;
+    -moz-box-shadow: 3px 3px 5px 0px black;
+    box-shadow: 3px 3px 5px 0px black;
+}
+.text-box h1 {
+    width: 100%;
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+}
+.text-box {
+    width: 50%;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+}
